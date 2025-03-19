@@ -1,0 +1,22 @@
+Se inició el curso de Git de Soy Dalto:
+    1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
+    2. Introducción a git: es un sistema de control de versiones distribuido    
+        2.1. Instalar git: https://git-scm.com/downloads
+        2.2. Configuración
+            2.2.1. Alcance local: por repositorio                       
+                - git config --local user.name
+                - git config --local user.email
+            2.2.2. Alcance global: por cuenta de usuario                 
+                - git config --global user.name
+                - git config --global user.email
+            2.2.3. Alcance de sistema: para toda la pc, usuarios, etc... 
+                - git config --system user.name
+                - git config --system user.email
+            2.2.4. Se puede ver el listado de configuraciones con: git config --list | git config --global --list
+            2.2.5. Configuración del editor de código: git config --global core.editor "code --wait"
+            2.2.6. Configuración de las salidas de color: git config --global color.ui true
+            2.2.7. Configuración de los saltos de línea: git config --global core.autocrlf
+                2.2.7.1. Si estás en windows usa: git config --global core.autocrlf true
+                2.2.7.1. Si estás en linux o mac usa: git config --global core.autocrlf input
+                2.2.7.1. Windows (\r\n retorno de carro + salto de línea) vs Linux & Mac (\n sálto de línea)
+    3. Se quedó en el minuto 25:40
