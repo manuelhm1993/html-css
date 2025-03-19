@@ -22,7 +22,7 @@ Se inició el curso de VSC de Soy Dalto:
         3.1. Activar los check abrir con code
     4. Dejar la configuración en inglés, no usar la extensión de español
     5. Secciones principales
-        * Activity bar: es la barra de actividades con las funciones principales
+        5.1. Activity bar: es la barra de actividades con las funciones principales
             - Explorer: permite manipular archivos y carpetas, sincroniza con el so
             - Search: permite buscar y reemplazar con variaciones e incluso regexp
             - Source control
@@ -30,4 +30,6 @@ Se inició el curso de VSC de Soy Dalto:
             - Extensions
             - Accounts
             - Manage
+        5.2. Recomendó ver el curso de git
+            5.2.1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
     6. Se quedó en el minuto 43
