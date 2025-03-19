@@ -23,11 +23,11 @@ Se inició el curso de VSC de Soy Dalto:
     4. Dejar la configuración en inglés, no usar la extensión de español
     5. Secciones principales
         * Activity bar: es la barra de actividades con las funciones principales
-            - Explorer
+            - Explorer: permite manipular archivos y carpetas, sincroniza con el so
             - Search
             - Source control
             - Run and debug
             - Extensions
             - Accounts
             - Manage
-    6. Se quedó en el minuto 22
+    6. Se quedó en el minuto 25
