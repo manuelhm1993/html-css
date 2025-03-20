@@ -98,4 +98,6 @@ Se inició el curso de Git de Soy Dalto:
     10. Resolver conflictos en un merge
         10.1. Los conflictos no son errores, simplemente se definen cuando al intentar hacer merge las dos
         ramas tienen modificaciones en el mismo archivo, se debe determinar que cambios escoger
-    11. Se quedó en el minuto 1:56:11
+        10.2. git merge --no-ff new-branch
+        10.3. Resolver el conflicto, los cambios se agregan al stage, se hace un commit y push
+    11. Se quedó en el minuto 2:01:11
