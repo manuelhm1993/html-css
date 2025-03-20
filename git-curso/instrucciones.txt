@@ -19,4 +19,10 @@ Se inició el curso de Git de Soy Dalto:
                 2.2.7.1. Si estás en windows usa: git config --global core.autocrlf true
                 2.2.7.1. Si estás en linux o mac usa: git config --global core.autocrlf input
                 2.2.7.1. Windows (\r\n retorno de carro + salto de línea) vs Linux & Mac (\n sálto de línea)
-    3. Se quedó en el minuto 25:40
+    3. Iniciar o crear un repositorio
+        3.1. Abrir una terminal y acceder a la carpeta del proyecto
+        3.2. Ejecutar el comando: git init
+        3.3. Para ver los documentos ocultos en unix se usa: ls -a
+        3.4. Pasar del área de trabajo al stage area: git add .
+        3.5. Pasar del stage area al repositorio: git commit -m "Resumen"
+    4. Se quedó en el minuto 25:40
