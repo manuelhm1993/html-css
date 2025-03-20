@@ -96,4 +96,6 @@ Se inició el curso de Git de Soy Dalto:
         9.4. Eliminar la rama en remoto: git push origin --delete new-branch
         9.5. Para corregir errores o volver al estado anterior del merge: git reset --hard (hash | head~1)
     10. Resolver conflictos en un merge
+        10.1. Los conflictos no son errores, simplemente se definen cuando al intentar hacer merge las dos
+        ramas tienen modificaciones en el mismo archivo, se debe determinar que cambios escoger
     11. Se quedó en el minuto 1:56:11
