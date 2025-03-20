@@ -76,7 +76,8 @@ Se inició el curso de Git de Soy Dalto:
         8.5. Para llevar el HEAD a la nueva rama se recomienda usar: git switch rama (moderno)
         8.6. Crear rama y llevar el HEAD a ella en un paso: git checkout -b nueva-rama (otra-rama | commit) (antigüo)
         8.7. Crear rama y llevar el HEAD a ella en un paso: git switch -c nueva-rama (otra-rama | commit) (moderno)
-        Si hay cambios no guardados se debe usar se deben almacenar temporalmente, cambiar de rama y luego continuar
+        Para subir la rama al repositorio remoto: git push -u origin nueva-rama. Si hay cambios no guardados 
+        se debe usar se deben almacenar temporalmente, cambiar de rama y luego continuar
         8.8. Para almacenar temporalmente
             8.8.1. Almacenar temporalmente el área de trabajo: git stash
             8.8.2. Recuperar los cambios del stash:            git stash pop
@@ -88,4 +89,11 @@ Se inició el curso de Git de Soy Dalto:
             8.10.2. git push origin HEAD
             8.10.3. git push origin --delete nombre-old
     9. Fusionar ramas (git merge)
-    10. Se quedó en el minuto 1:47:52
+        9.1. Luego de crear una rama, hacer los cambios pertinentes y aprobarlos se va a la rama que va
+        a recibir los cambios: git switch master
+        9.2. Fusionar o traer el pultimo commit de la rama al master: git merge --no-ff new-branch
+        9.3. Eliminar la rama en local: git branch -D new-branch
+        9.4. Eliminar la rama en remoto: git push origin --delete new-branch
+        9.5. Para corregir errores o volver al estado anterior del merge: git reset --hard (hash | head~1)
+    10. Resolver conflictos en un merge
+    11. Se quedó en el minuto 1:56:11
