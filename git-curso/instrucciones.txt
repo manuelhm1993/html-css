@@ -35,4 +35,8 @@ Se inició el curso de Git de Soy Dalto:
             4.2.1. git restore --staged archivo (actualmente)
         4.3. Para renombrar un archivo
             4.3.1. git mv archivo-old archivo-new (lo renombra y agrega al stage)
+    5. Git diff o diferencias entre: commits, branches, etc...
+        5.1. Para ver la información detallada del último commit de un archivo:          git show archivo
+        5.2. Para ver la diferencia entre último commit de un archivo y el working area: git diff archivo
+        5.3. Para ver la diferencia entre último commit de un archivo y el stage:        git diff --staged
     5. Se quedó en el minuto 54:38
