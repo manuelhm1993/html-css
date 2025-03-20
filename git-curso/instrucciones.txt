@@ -87,4 +87,5 @@ Se inició el curso de Git de Soy Dalto:
             8.10.1. git branch -m nombre-old nombre-new
             8.10.2. git push origin HEAD
             8.10.3. git push origin --delete nombre-old
-    6. Se quedó en el minuto 1:31:36
+    9. Fusionar ramas (git merge)
+    10. Se quedó en el minuto 1:47:52
