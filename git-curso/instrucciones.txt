@@ -25,4 +25,6 @@ Se inició el curso de Git de Soy Dalto:
         3.3. Para ver los documentos ocultos en unix se usa: ls -a
         3.4. Pasar del área de trabajo al stage area: git add .
         3.5. Pasar del stage area al repositorio: git commit -m "Resumen"
+        3.6. Si se desea hacer un commit saltando el stage area: git commit -a "Mensaje"
+    4. Funciones básicas: restore, checkout y más
     4. Se quedó en el minuto 25:40
