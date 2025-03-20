@@ -45,4 +45,24 @@ Se inició el curso de Git de Soy Dalto:
         5.7. Para ver solo los archivos que cambiaron: git log --oneline -> git diff --name-only hash1 hash2
         5.8. Para ver solo las líneas que cambiaron:   git log --oneline -> git diff --word-diff hash1 hash2
             5.8.1. Entre el último commit y el stage area: git diff --word-diff --staged
-    6. Se quedó en el minuto 1:06:41
+    6. Modificar commits, hacer cambios sin necesitad de hacer otro commit
+        6.1. Modificar descripción y agregar archivos: git commit --amend
+        6.2. Hacer push de un commit modificado: git push -f
+        6.3. ¿Qué es el HEAD?
+            6.3.1 El HEAD es el puntero que indica en qué commit está posicionado y en qué rama
+        6.4. Para modificar un commit que no es el último no se puede usar --amend
+            6.4.1. Modificar un commit que no es el último: git rebase -i head~x (alt + 126 = ~)
+            6.4.2. Modificar un commit 3 posiciones abajo:  git rebase -i head~3
+            6.4.3. Cambiar pick por edit en el commit correspondiente
+            6.4.4. Ejecutar git commit --amend y hacer los cambios correspondientes
+            6.4.5. Ejecutar git rebase --continue (práctica no recomendada)
+    7. Deshacer commits
+        7.1. Para ver los últimos 5 commits: git log --oneline -n 5
+        7.2. Para deshacer el último commit se lleva el puntero al commit anterior: git reset --soft hash 
+        (los cambios del último commit los agrega al stage) | git reset --soft head~1 (mismo efecto)
+        7.3. Para deshacer el último commit y dejar los cambios en el working area: git reset --mixed hash
+        (los cambios del último commit no los agrega al stage) | git reset --mixed head~1
+        7.4. Para deshacer completamente el último commit y restaurar el anterior: git reset --hard hash
+        (restaura el commit al que se apunta y limpia el stage) | git reset --hard head~1
+        7.5. Para deshacer todos los cambios sin guardar se puede usar: git reset --hard último-commit
+    6. Se quedó en el minuto 1:31:36
