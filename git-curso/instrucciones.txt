@@ -112,4 +112,19 @@ Se inició el curso de Git de Soy Dalto:
             11.2.2. Ignorar todos los archivos de texto menos uno: !excepion.txt
             11.2.3. Ignorar todo un directorio: /directorio
         11.3. Para ignorar archivos que ya fueron subidos al repositorio
-    12. Se quedó en el minuto 2:12:46
+            11.3.1. Dejar de hacerle seguimiento al archivo: git rm --cached archivo
+            11.3.2. Hacer commit de los cambios
+            11.3.3. Escribir la regla en el .gitignore
+        11.4. Se puede crear un .gitignore global para archivos comunes en todos los proyectos
+            11.4.1. Ir a un directorio del administrador de archivos: C:/Config_global
+            11.4.2. Crear el archivo: .gitignore_global
+            11.4.3. Abrir un blog de noras como administrador y luego el archivo desde ahí
+            11.4.4. Como cuando se crea un virtual host, se colocan las reglas en el .gitignore_global
+            11.4.5. Configurar git para que siempre lea ese archivo: 
+            git config --global core.excludesfile /c/Config_global/.gitignore_global
+            11.4.6. Si se desea que un repositorio no cumpla esas reglas, se crea un .gitignore en ese repositorio
+            11.4.7. Si se desea revertir la configuración, simplemente se elimina el .gitignore_global
+    12. Git alias: sirven para darle un alias a comandos muy largos
+        12.1. git log --oneline --graph --decorate --all
+        12.2. git log --oneline --graph --decorate --all --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr"
+    13. Se quedó en el minuto 2:29:20
