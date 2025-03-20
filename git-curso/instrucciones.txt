@@ -101,5 +101,10 @@ Se inició el curso de Git de Soy Dalto:
         10.2. git merge --no-ff new-branch
         10.3. Resolver el conflicto, luego: git merge --continue los cambios se agregan al stage, se 
         hace un commit y push
-    11. Ignorar archivos - .gitignore
+    11. Ignorar archivos - .gitignore: sirve para ignorar archivos y que no se suban al repositorio, como
+    archivos de configuración, archivos .env, imagenes, etc...
+        11.1. Comandos a utilizar para evaluar archivos y commits
+            11.1.1. git log --oneline (para ver los commits abreviados)
+            11.1.2. git ls-tree -r --name-only hash (para ver los archivos de un commit, sus directorios y 
+            solo sus nombres)
     12. Se quedó en el minuto 2:12:46
