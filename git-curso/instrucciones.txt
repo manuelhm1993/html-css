@@ -34,5 +34,5 @@ Se inició el curso de Git de Soy Dalto:
             4.2.1. git reset --hard (anteriormente)
             4.2.1. git restore --staged archivo (actualmente)
         4.3. Para renombrar un archivo
-            4.3.1. git mv archivo-old archivo-new
-    5. Se quedó en el minuto 25:40
+            4.3.1. git mv archivo-old archivo-new (lo renombra y agrega al stage)
+    5. Se quedó en el minuto 54:38
