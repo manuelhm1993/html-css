@@ -70,5 +70,21 @@ Se inició el curso de Git de Soy Dalto:
         la rama principal de un proyecto es la master y las siguientes son copias del master que son independientes
         si no funcionan se eliminan y si funcionan las nuevas características se fusionan al master y se elimina
         la rama secundaria
-        8.2. 
+        8.2. Para ver las ramas: git branch | git branch --list | git branch --all
+        8.3. Para crear una nueva rama: git branch nueva-rama (otra-rama | commit) 
+        8.4. Para llevar el HEAD a la nueva rama: git checkout nueva-rama (antigüo)
+        8.5. Para llevar el HEAD a la nueva rama se recomienda usar: git switch rama (moderno)
+        8.6. Crear rama y llevar el HEAD a ella en un paso: git checkout -b nueva-rama (otra-rama | commit) (antigüo)
+        8.7. Crear rama y llevar el HEAD a ella en un paso: git switch -c nueva-rama (otra-rama | commit) (moderno)
+        Si hay cambios no guardados se debe usar se deben almacenar temporalmente, cambiar de rama y luego continuar
+        8.8. Para almacenar temporalmente
+            8.8.1. Almacenar temporalmente el área de trabajo: git stash
+            8.8.2. Recuperar los cambios del stash:            git stash pop
+        8.9. Para eliminar una rama
+            8.9.1. Posicionar el HEAD en otra rama y usar: git branch -d rama (si no tiene cambios pendientes)
+            8.9.2. Posicionar el HEAD en otra rama y usar: git branch -D rama (eliminar forzado)
+        8.10. Renombrar una rama
+            8.10.1. git branch -m nombre-old nombre-new
+            8.10.2. git push origin HEAD
+            8.10.3. git push origin --delete nombre-old
     6. Se quedó en el minuto 1:31:36
