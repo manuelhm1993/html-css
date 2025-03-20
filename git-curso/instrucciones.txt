@@ -65,4 +65,10 @@ Se inició el curso de Git de Soy Dalto:
         7.4. Para deshacer completamente el último commit y restaurar el anterior: git reset --hard hash
         (restaura el commit al que se apunta y limpia el stage) | git reset --hard head~1
         7.5. Para deshacer todos los cambios sin guardar se puede usar: git reset --hard último-commit
+    8. Branches | Ramas
+        8.1. Las ramas son una sucesión de commits a donde apunta el HEAD que definen una línea temporal
+        la rama principal de un proyecto es la master y las siguientes son copias del master que son independientes
+        si no funcionan se eliminan y si funcionan las nuevas características se fusionan al master y se elimina
+        la rama secundaria
+        8.2. 
     6. Se quedó en el minuto 1:31:36
