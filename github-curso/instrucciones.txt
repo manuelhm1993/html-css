@@ -77,7 +77,7 @@ Se inició el curso de Github de Soy Dalto:
         10.5. Hacer pruebas locales antes de solicitar el pull request
         10.6. No se debe trabajar en el master, siempre se debe crear ramas para corregir errores,
         agregar nuevas funcionalidades y realizar optimizaciones
-        10.7. Utilizar estrategias de branching, es decir, conocer rebase y squach
+        10.7. Utilizar estrategias de branching, es decir, conocer rebase y squash
         10.8. Los commits deben ser significativos y atómicos, es decir, se deben realizar por cada cambio
         importante que se realiza y se termina
         10.9. Los commits deben tener un mensaje claro y conciso
@@ -85,5 +85,15 @@ Se inició el curso de Github de Soy Dalto:
         10.12. Usar tags para cambios importantes
         10.13. Mantener el historial limpio, eliminar ramas locales y remotas que ya no se usan
         10.14. Evitar hacer commits innecesarios y no relacionados 
-    12. Próximos pasos
-    13. Se quedó en el minuto 4:11:46 - Fin del curso github
+    11. Próximos pasos
+        11.1. Git stash         - área para guardar temporalmente cambios no confirmados y hacer otra cosa
+        11.2. Git cherry-pick   - tomar un commit específico de una rama a otra para evitar el merge
+        11.3. Github milestones - organizar y rastrear todo un grupo de pull request e issues 
+        11.3. Git rebase        - permite tener un historial limpio pasando las referencias a otra rama
+        11.4. Git squash        - agrupa todos los cambios de una rama en un único commit y luego a master
+        11.5. Github Submódulos - agregar un repositorio dentro de otro
+        11.6. Git hooks         - similares a los triggers, permite ejecutar un script antes o después de un evento
+        11.7. Git bisect        - permite determinar cuál fue el commit que introdujo un bug
+        11.8. Github actions    - permite programar eventos para el deploy
+        11.9. Git & Github flow - metodologías de trabajo
+    12. Se quedó en el minuto 4:11:46 - Fin del curso github
