@@ -127,4 +127,8 @@ Se inició el curso de Git de Soy Dalto:
     12. Git alias: sirven para darle un alias a comandos muy largos
         12.1. git log --oneline --graph --decorate --all
         12.2. git log --oneline --graph --decorate --all --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr"
-    13. Se quedó en el minuto 2:29:20
+        12.3. Para dar un alias a un comando largo frecuente: 
+            12.3.1. git config --global alias.nombre-alias comando 
+            12.3.2. git config --global alias.mh-log "log --oneline --graph --decorate --all"
+            12.3.3. git config --global alias.mh-log-rd "log --oneline --graph --decorate --all --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr'"
+    13. Se quedó en el minuto 2:31:52
