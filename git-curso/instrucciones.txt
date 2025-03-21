@@ -144,4 +144,4 @@ Se inició el curso de Git de Soy Dalto:
         13.8. Se pude directamente ir a un commit temporalmente con checkout y luego hacer una rama
             13.8.1. git checkout hash
             13.8.2. git switch -c recuperar
-    14. Se quedó en el minuto 2:38:36
+    14. Se quedó en el minuto 2:38:36 - Fin del curso git

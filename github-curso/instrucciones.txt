@@ -70,4 +70,20 @@ Se inició el curso de Github de Soy Dalto:
         9.3. Los issues son tareas y los milestones son agrupaciones de tareas que se le asignan a un
         responsable, se abren y se cierran
     10. Buenas prácticas
-    11. Se quedó en el minuto 3:53:00
+        10.1. Configurar correctamente las credenciales
+        10.2. Agregar un .gitignore al proyecto
+        10.3. Al crear una rama esta debe tener un objetivo, al cumplir el objetivo se elimina
+        10.4. Los nombres de las ramas deben ser kebab-case y tener nombres descriptivos
+        10.5. Hacer pruebas locales antes de solicitar el pull request
+        10.6. No se debe trabajar en el master, siempre se debe crear ramas para corregir errores,
+        agregar nuevas funcionalidades y realizar optimizaciones
+        10.7. Utilizar estrategias de branching, es decir, conocer rebase y squach
+        10.8. Los commits deben ser significativos y atómicos, es decir, se deben realizar por cada cambio
+        importante que se realiza y se termina
+        10.9. Los commits deben tener un mensaje claro y conciso
+        10.11. Ejecutar git fetch eventualmente para estar actualizado respecto al repositorio remoto
+        10.12. Usar tags para cambios importantes
+        10.13. Mantener el historial limpio, eliminar ramas locales y remotas que ya no se usan
+        10.14. Evitar hacer commits innecesarios y no relacionados 
+    12. Próximos pasos
+    13. Se quedó en el minuto 4:11:46 - Fin del curso github
