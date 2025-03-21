@@ -50,4 +50,16 @@ Se inició el curso de Github de Soy Dalto:
         7.3. A partir de allí ya se tiene un clon del proyecto original y se puede manipular como propio,
         descargar en local, modificarlo, etc...
     8. Solicitar el merge de los cambios al repositorio remoto - Pull Request
-    9. Se quedó en el minuto 3:38:08
+        8.1. Una vez que se han completado los cambios en local, funcionan y están probados, estos se
+        suben a remoto a través de push, pero no se puede hacer merge directamente al master, para eso
+        existe el pull request, es una solicitud para aprobar el merge por el administrador del proyecto
+        8.2. En proyectos propios esto se da con las ramas, se posiciona en la rama y se hace click en
+        Compare & pull request o si se quiere separar, click en contribute, ahí se compara primero y 
+        luego se hace el pull request
+        8.3. En proyectos fork se hace el contribute y se espera respuesta del administrador
+        8.4. El administrador es notificado por Github del pull request y este evalúa para la aprobación
+        8.5. De ser aceptados los cambios, se hace un merge en el master
+        8.6. En el caso de hacer esto desde un fork, se usa el botón sync fork, en caso de clone se usa
+        fetch y pull
+    9. Agendar tareas - Issues (es similar a trello)
+    10. Se quedó en el minuto 3:47:40
