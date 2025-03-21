@@ -33,5 +33,21 @@ Se inició el curso de Github de Soy Dalto:
             directamente
         5.2. Al hacer git fetch se crean ramas temporales y se puede hacer switch o checkout a ellas:
         git switch --detach origin/rama
-    6. Migrar un repositorio local a remoto
-    7. Se quedó en el minuto 3:24:32
+    6. Migrar un repositorio local a remoto - Comando git remote
+        6.1. Al contrario del clone, cuando se desea pasar de local a remoto es una migración, se debe
+        crear el repositorio en local como se maneja naturalmente en git y luego crear un remote, es decir,
+        luego de tener el proyecto en local, se crea en github un repositorio vacío y se obtiene el link
+            6.1.1. git remote add origin link
+            6.1.2. git branch -M master
+            6.1.3. git push -u origin master | git push --set-upstream origin master
+            Se debe establecer un flujo de datos con el remoto para no tener que escribir origin master
+            en cada push o pull, se coloca el upstream en la primera subida y luego se omite en las siguientes
+        6.2. Este proceso es automático cuando se hace el git clone
+    7. Clonar un proyecto de otra persona, pero directamente en Github - Fork
+        7.1. Navegando por Github se puede encontrar algún repositorio que nos agrade y se puede hacer
+        una copia de ese repositorio como base para otro proyecto o colaborar en él
+        7.2. Ingresar en el repositorio, darle click a fork y crearlo
+        7.3. A partir de allí ya se tiene un clon del proyecto original y se puede manipular como propio,
+        descargar en local, modificarlo, etc...
+    8. Solicitar el merge de los cambios al repositorio remoto - Pull Request
+    9. Se quedó en el minuto 3:38:08
