@@ -131,4 +131,17 @@ Se inició el curso de Git de Soy Dalto:
             12.3.1. git config --global alias.nombre-alias comando 
             12.3.2. git config --global alias.mh-log "log --oneline --graph --decorate --all"
             12.3.3. git config --global alias.mh-log-rd "log --oneline --graph --decorate --all --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr'"
-    13. Se quedó en el minuto 2:31:52
+    13. Git reflog - recuperar commits
+        13.1. Ver el listado de commits: git log --oneline
+        13.2. Volver al commit anterior: git reset --hard head~1
+        13.3. Revertir el cambio y volver al commit superior: git reset --hard hash
+        13.4. Los commits no se eliminan realmente, se elimina la referencia a los mismos y no se pierden
+        hasta que son sobreescritos, es decir, que si se encuentra la referencia, puede ser recuperado
+        13.5. Si se pierden las referencias o no se hizo un git log previo, se puede recuperar usando:
+        git reflog (lista todos los movimientos del HEAD), se recupera la referencia y se restaura
+        13.6. git reflog
+        13.7. git reset --hard hash
+        13.8. Se pude directamente ir a un commit temporalmente con checkout y luego hacer una rama
+            13.8.1. git checkout hash
+            13.8.2. git switch -c recuperar
+    14. Se quedó en el minuto 2:38:36
