@@ -1,0 +1,11 @@
+Se inició el curso de Github de Soy Dalto:
+    1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
+    2. Introducción a Github
+        2.1. Github es una plataforma de hosting de código para el control de versiones y colaboración.
+        Permite trabajar junto a otras personas en proyectos desde cualquier lugar, usando Git
+        2.2. Git y Github no son la misma cosa, al usar Git se tiene: working area, staging area, repository
+        Al usar Github se agrega una cuarta área y es: remote repository o los cambios en el hosting
+        2.3. Github permite trabajar de forma gráfica y web con Git, se crea una cuenta y se configura el
+        perfil: https://github.com/
+    3. Sincronizar Git y Github - Comando git clone
+    4. Se quedó en el minuto 2:58:22
