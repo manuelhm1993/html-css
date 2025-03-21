@@ -18,5 +18,9 @@ Se inició el curso de Github de Soy Dalto:
         3.3. Una vez clonado el repositorio pasa a estar en local y sincronizado con el remoto a través
         del origin que es la variable remote
     4. Sincronizar Git y Github - Comando git push
-        4.1. Para enviar información de local a remoto se usa: git push
-    5. Se quedó en el minuto 3:06:22
+        4.1. Para asegurarse que las credenciales son correctas y coinciden en Git y Github, 
+        verificar el: git config --global user.email && git config --global user.name
+        4.2. Para enviar información de local a remoto se usa: git push origin master
+        4.3. Si es la primera vez que se realiza el proceso, se pedirá autenticación con Github
+    5. Sincronizar Git y Github - Comandos git fetch && git pull
+    6. Se quedó en el minuto 3:12:59
