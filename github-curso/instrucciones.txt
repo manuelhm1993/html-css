@@ -62,4 +62,12 @@ Se inició el curso de Github de Soy Dalto:
         8.6. En el caso de hacer esto desde un fork, se usa el botón sync fork, en caso de clone se usa
         fetch y pull
     9. Agendar tareas - Issues (es similar a trello)
-    10. Se quedó en el minuto 3:47:40
+        9.1. Los issues son una funcionalidad que tiene Github para hacer un seguimiento y tener control
+        sobre los requerimientos del proyecto, es muy similar o prácticamente igual que usar trello, la
+        gran diferencia es que se puede explotar al sincronizar el repositorio y llevar un control de
+        las tareas respecto a las ramas y los pull request. 
+        9.2. La gran potencialidad es: proyecto - repositorio - issues
+        9.3. Los issues son tareas y los milestones son agrupaciones de tareas que se le asignan a un
+        responsable, se abren y se cierran
+    10. Buenas prácticas
+    11. Se quedó en el minuto 3:53:00
