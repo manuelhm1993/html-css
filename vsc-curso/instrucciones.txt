@@ -28,9 +28,14 @@ Se inició el curso de VSC de Soy Dalto:
             - Source control: vscode provee una interfaz amigable para trabajar con git y un módulo de
             terminal para poder trabajar desde consola sin salir del editor
             - Run and debug: es una herramienta de ejecución y debug integrada a vsc
-            - Extensions: 
+            - Extensions: es un marketplace para instalarle mejoras a vscode
+                * Theme:  palenight
+                * Format: prettier
+                * Icons:  breaded icons
+                * Basic:  gitlens
+                * Basic:  intellicode
             - Accounts
             - Manage
         5.2. Recomendó ver el curso de git
             5.2.1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
-    6. Se quedó en el minuto 1:00.20
+    6. Se quedó en el minuto 1:05.00
