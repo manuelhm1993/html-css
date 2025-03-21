@@ -17,4 +17,6 @@ Se inició el curso de Github de Soy Dalto:
             3.2.2. git clone https://github.com/manuelhm1993/html-css.git
         3.3. Una vez clonado el repositorio pasa a estar en local y sincronizado con el remoto a través
         del origin que es la variable remote
-    4. Se quedó en el minuto 2:58:22
+    4. Sincronizar Git y Github - Comando git push
+        4.1. Para enviar información de local a remoto se usa: git push
+    5. Se quedó en el minuto 3:06:22
