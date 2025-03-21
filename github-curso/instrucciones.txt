@@ -23,4 +23,15 @@ Se inició el curso de Github de Soy Dalto:
         4.2. Para enviar información de local a remoto se usa: git push origin master
         4.3. Si es la primera vez que se realiza el proceso, se pedirá autenticación con Github
     5. Sincronizar Git y Github - Comandos git fetch && git pull
-    6. Se quedó en el minuto 3:12:59
+        5.1. Si se está trabajando de forma colaborativa y se suben cambios al remoto, se puede traer a
+        local dichos cambios sin necesidad de clonar todo el repositorio nuevamente
+            5.1.1. Para traer los cambios remotos a locales sin fusionarlos: git fetch
+            5.1.2. Para traer los cambios remotos a locales y fusionarlos: git pull
+            5.1.3. Git fetch trae todos los cambios y los coloca en local para poder visualizar y comparar
+            esto permite mayor control y una vez hecho, se procede a hacer el git pull, si por el contrario
+            se hace git pull, esto ejecuta el fetch y luego un merge, puede ocasionar conflictos si se hace
+            directamente
+        5.2. Al hacer git fetch se crean ramas temporales y se puede hacer switch o checkout a ellas:
+        git switch --detach origin/rama
+    6. Migrar un repositorio local a remoto
+    7. Se quedó en el minuto 3:24:32
