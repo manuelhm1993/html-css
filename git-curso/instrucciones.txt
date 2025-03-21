@@ -1,0 +1,147 @@
+Se inició el curso de Git de Soy Dalto:
+    1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
+    2. Introducción a git: es un sistema de control de versiones distribuido    
+        2.1. Instalar git: https://git-scm.com/downloads
+        2.2. Configuración
+            2.2.1. Alcance local: por repositorio                       
+                - git config --local user.name
+                - git config --local user.email
+            2.2.2. Alcance global: por cuenta de usuario                 
+                - git config --global user.name
+                - git config --global user.email
+            2.2.3. Alcance de sistema: para toda la pc, usuarios, etc... 
+                - git config --system user.name
+                - git config --system user.email
+            2.2.4. Se puede ver el listado de configuraciones con: git config --list | git config --global --list
+            2.2.5. Configuración del editor de código: git config --global core.editor "code --wait"
+            2.2.6. Configuración de las salidas de color: git config --global color.ui true
+            2.2.7. Configuración de los saltos de línea: git config --global core.autocrlf
+                2.2.7.1. Si estás en windows usa: git config --global core.autocrlf true
+                2.2.7.1. Si estás en linux o mac usa: git config --global core.autocrlf input
+                2.2.7.1. Windows (\r\n retorno de carro + salto de línea) vs Linux & Mac (\n sálto de línea)
+    3. Iniciar o crear un repositorio
+        3.1. Abrir una terminal y acceder a la carpeta del proyecto
+        3.2. Ejecutar el comando: git init
+        3.3. Para ver los documentos ocultos en unix se usa: ls -a
+        3.4. Pasar del área de trabajo al stage area: git add .
+        3.5. Pasar del stage area al repositorio: git commit -m "Resumen"
+        3.6. Si se desea hacer un commit saltando el stage area: git commit -m "Mensaje" -a
+    4. Funciones básicas: restore, checkout, reset y mv (rename)
+        4.1. Para deshacer cambios
+            4.1.1. git checkout archivo (anteriormente)
+            4.1.2. git restore archivo (actualmente)
+        4.2. Para sacar un archivo del stage area
+            4.2.1. git reset --hard (anteriormente)
+            4.2.1. git restore --staged archivo (actualmente)
+        4.3. Para renombrar un archivo
+            4.3.1. git mv archivo-old archivo-new (lo renombra y agrega al stage)
+    5. Git diff o diferencias entre: commits, branches, etc...
+        5.1. Para ver la información detallada del último commit de un archivo:          git show archivo
+        5.2. Para ver la diferencia entre último commit de un archivo y el working area: git diff archivo
+        5.3. Para ver la diferencia entre último commit de un archivo y el stage:        git diff --staged
+        5.4. Para ver el listado de los commits: git log | git log --oneline (abreviado char(7))
+        5.5. Para aumentar el número de caracteres de git log: git config --global core.abbrev 10
+        5.6. Para ver diferencias entre commits: git log --oneline -> git diff hash1 hash2
+        5.7. Para ver solo los archivos que cambiaron: git log --oneline -> git diff --name-only hash1 hash2
+        5.8. Para ver solo las líneas que cambiaron:   git log --oneline -> git diff --word-diff hash1 hash2
+            5.8.1. Entre el último commit y el stage area: git diff --word-diff --staged
+    6. Modificar commits, hacer cambios sin necesitad de hacer otro commit
+        6.1. Modificar descripción y agregar archivos: git commit --amend
+        6.2. Hacer push de un commit modificado: git push -f
+        6.3. ¿Qué es el HEAD?
+            6.3.1 El HEAD es el puntero que indica en qué commit está posicionado y en qué rama
+        6.4. Para modificar un commit que no es el último no se puede usar --amend
+            6.4.1. Modificar un commit que no es el último: git rebase -i head~x (alt + 126 = ~)
+            6.4.2. Modificar un commit 3 posiciones abajo:  git rebase -i head~3
+            6.4.3. Cambiar pick por edit en el commit correspondiente
+            6.4.4. Ejecutar git commit --amend y hacer los cambios correspondientes
+            6.4.5. Ejecutar git rebase --continue (práctica no recomendada)
+    7. Deshacer commits
+        7.1. Para ver los últimos 5 commits: git log --oneline -n 5
+        7.2. Para deshacer el último commit se lleva el puntero al commit anterior: git reset --soft hash 
+        (los cambios del último commit los agrega al stage) | git reset --soft head~1 (mismo efecto)
+        7.3. Para deshacer el último commit y dejar los cambios en el working area: git reset --mixed hash
+        (los cambios del último commit no los agrega al stage) | git reset --mixed head~1
+        7.4. Para deshacer completamente el último commit y restaurar el anterior: git reset --hard hash
+        (restaura el commit al que se apunta y limpia el stage) | git reset --hard head~1
+        7.5. Para deshacer todos los cambios sin guardar se puede usar: git reset --hard último-commit
+    8. Branches | Ramas
+        8.1. Las ramas son una sucesión de commits a donde apunta el HEAD que definen una línea temporal
+        la rama principal de un proyecto es la master y las siguientes son copias del master que son independientes
+        si no funcionan se eliminan y si funcionan las nuevas características se fusionan al master y se elimina
+        la rama secundaria
+        8.2. Para ver las ramas: git branch | git branch --list | git branch --all
+        8.3. Para crear una nueva rama: git branch nueva-rama (otra-rama | commit) 
+        8.4. Para llevar el HEAD a la nueva rama: git checkout nueva-rama (antigüo)
+        8.5. Para llevar el HEAD a la nueva rama se recomienda usar: git switch rama (moderno)
+        8.6. Crear rama y llevar el HEAD a ella en un paso: git checkout -b nueva-rama (otra-rama | commit) (antigüo)
+        8.7. Crear rama y llevar el HEAD a ella en un paso: git switch -c nueva-rama (otra-rama | commit) (moderno)
+        Para subir la rama al repositorio remoto: git push -u origin nueva-rama. Si hay cambios no guardados 
+        se debe usar se deben almacenar temporalmente, cambiar de rama y luego continuar
+        8.8. Para almacenar temporalmente
+            8.8.1. Almacenar temporalmente el área de trabajo: git stash
+            8.8.2. Recuperar los cambios del stash:            git stash pop
+        8.9. Para eliminar una rama
+            8.9.1. Posicionar el HEAD en otra rama y usar: git branch -d rama (si no tiene cambios pendientes)
+            8.9.2. Posicionar el HEAD en otra rama y usar: git branch -D rama (eliminar forzado)
+        8.10. Renombrar una rama
+            8.10.1. git branch -m nombre-old nombre-new
+            8.10.2. git push origin HEAD
+            8.10.3. git push origin --delete nombre-old
+    9. Fusionar ramas (git merge)
+        9.1. Luego de crear una rama, hacer los cambios pertinentes y aprobarlos se va a la rama que va
+        a recibir los cambios: git switch master
+        9.2. Fusionar o traer el pultimo commit de la rama al master: git merge --no-ff new-branch
+        9.3. Eliminar la rama en local: git branch -D new-branch
+        9.4. Eliminar la rama en remoto: git push origin --delete new-branch
+        9.5. Para corregir errores o volver al estado anterior del merge: git reset --hard (hash | head~1)
+    10. Resolver conflictos en un merge
+        10.1. Los conflictos no son errores, simplemente se definen cuando al intentar hacer merge las dos
+        ramas tienen modificaciones en el mismo archivo, se debe determinar que cambios escoger
+        10.2. git merge --no-ff new-branch
+        10.3. Resolver el conflicto, luego: git merge --continue los cambios se agregan al stage, se 
+        hace un commit y push
+    11. Ignorar archivos - .gitignore: sirve para ignorar archivos y que no se suban al repositorio, como
+    archivos de configuración, archivos .env, imagenes, etc...
+        11.1. Comandos a utilizar para evaluar archivos y commits
+            11.1.1. git log --oneline (para ver los commits abreviados)
+            11.1.2. git ls-tree -r --name-only hash (para ver los archivos de un commit, sus directorios y 
+            solo sus nombres)
+        11.2. Para ignorar archivos se usan expresiones regulares
+            11.2.1. Ignorar todos los archivos de texto: *.txt
+            11.2.2. Ignorar todos los archivos de texto menos uno: !excepion.txt
+            11.2.3. Ignorar todo un directorio: /directorio
+        11.3. Para ignorar archivos que ya fueron subidos al repositorio
+            11.3.1. Dejar de hacerle seguimiento al archivo: git rm --cached archivo
+            11.3.2. Hacer commit de los cambios
+            11.3.3. Escribir la regla en el .gitignore
+        11.4. Se puede crear un .gitignore global para archivos comunes en todos los proyectos
+            11.4.1. Ir a un directorio del administrador de archivos: C:/Config_global
+            11.4.2. Crear el archivo: .gitignore_global
+            11.4.3. Abrir un blog de noras como administrador y luego el archivo desde ahí
+            11.4.4. Como cuando se crea un virtual host, se colocan las reglas en el .gitignore_global
+            11.4.5. Configurar git para que siempre lea ese archivo: 
+            git config --global core.excludesfile /c/Config_global/.gitignore_global
+            11.4.6. Si se desea que un repositorio no cumpla esas reglas, se crea un .gitignore en ese repositorio
+            11.4.7. Si se desea revertir la configuración, simplemente se elimina el .gitignore_global
+    12. Git alias: sirven para darle un alias a comandos muy largos
+        12.1. git log --oneline --graph --decorate --all
+        12.2. git log --oneline --graph --decorate --all --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr"
+        12.3. Para dar un alias a un comando largo frecuente: 
+            12.3.1. git config --global alias.nombre-alias comando 
+            12.3.2. git config --global alias.mh-log "log --oneline --graph --decorate --all"
+            12.3.3. git config --global alias.mh-log-rd "log --oneline --graph --decorate --all --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr'"
+    13. Git reflog - recuperar commits
+        13.1. Ver el listado de commits: git log --oneline
+        13.2. Volver al commit anterior: git reset --hard head~1
+        13.3. Revertir el cambio y volver al commit superior: git reset --hard hash
+        13.4. Los commits no se eliminan realmente, se elimina la referencia a los mismos y no se pierden
+        hasta que son sobreescritos, es decir, que si se encuentra la referencia, puede ser recuperado
+        13.5. Si se pierden las referencias o no se hizo un git log previo, se puede recuperar usando:
+        git reflog (lista todos los movimientos del HEAD), se recupera la referencia y se restaura
+        13.6. git reflog
+        13.7. git reset --hard hash
+        13.8. Se pude directamente ir a un commit temporalmente con checkout y luego hacer una rama
+            13.8.1. git checkout hash
+            13.8.2. git switch -c recuperar
+    14. Se quedó en el minuto 2:38:36
