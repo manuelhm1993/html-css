@@ -1,5 +1,0 @@
-Se está haciendo el curso de HTML y CSS de Soy Dalton:
-    1. https://www.youtube.com/watch?v=ELSm-G201Ls&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW
-    2. Se quedó en el minuto 30
-Se inició el curso de VSC de Soy Dalton:
-    1. https://www.youtube.com/watch?v=TbzrOz8HbFM&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=51

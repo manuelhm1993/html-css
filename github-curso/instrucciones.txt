@@ -1,0 +1,99 @@
+Se inició el curso de Github de Soy Dalto:
+    1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
+    2. Introducción a Github
+        2.1. Github es una plataforma de hosting de código para el control de versiones y colaboración.
+        Permite trabajar junto a otras personas en proyectos desde cualquier lugar, usando Git
+        2.2. Git y Github no son la misma cosa, al usar Git se tiene: working area, staging area, repository
+        Al usar Github se agrega una cuarta área y es: remote repository o los cambios en el hosting
+        2.3. Github permite trabajar de forma gráfica y web con Git, se crea una cuenta y se configura el
+        perfil: https://github.com/
+    3. Sincronizar Git y Github - Comando git clone
+        3.1. Se puede clonar un repositorio remoto de tres formas
+            3.1.1. HTTPS: https://github.com/manuelhm1993/html-css.git (la más usada)
+            3.1.2. SSH: git@github.com:manuelhm1993/html-css.git (la más segura)
+            3.1.3. Github CLI: gh repo clone manuelhm1993/html-css (la más rebuscada)
+        3.2. Se copia el link que se va a utilizar y se procede a hacer la clonación
+            3.2.1. Seleccionar el directorio donde se va a ubicar el repositorio
+            3.2.2. git clone https://github.com/manuelhm1993/html-css.git
+        3.3. Una vez clonado el repositorio pasa a estar en local y sincronizado con el remoto a través
+        del origin que es la variable remote
+    4. Sincronizar Git y Github - Comando git push
+        4.1. Para asegurarse que las credenciales son correctas y coinciden en Git y Github, 
+        verificar el: git config --global user.email && git config --global user.name
+        4.2. Para enviar información de local a remoto se usa: git push origin master
+        4.3. Si es la primera vez que se realiza el proceso, se pedirá autenticación con Github
+    5. Sincronizar Git y Github - Comandos git fetch && git pull
+        5.1. Si se está trabajando de forma colaborativa y se suben cambios al remoto, se puede traer a
+        local dichos cambios sin necesidad de clonar todo el repositorio nuevamente
+            5.1.1. Para traer los cambios remotos a locales sin fusionarlos: git fetch
+            5.1.2. Para traer los cambios remotos a locales y fusionarlos: git pull
+            5.1.3. Git fetch trae todos los cambios y los coloca en local para poder visualizar y comparar
+            esto permite mayor control y una vez hecho, se procede a hacer el git pull, si por el contrario
+            se hace git pull, esto ejecuta el fetch y luego un merge, puede ocasionar conflictos si se hace
+            directamente
+        5.2. Al hacer git fetch se crean ramas temporales y se puede hacer switch o checkout a ellas:
+        git switch --detach origin/rama
+    6. Migrar un repositorio local a remoto - Comando git remote
+        6.1. Al contrario del clone, cuando se desea pasar de local a remoto es una migración, se debe
+        crear el repositorio en local como se maneja naturalmente en git y luego crear un remote, es decir,
+        luego de tener el proyecto en local, se crea en github un repositorio vacío y se obtiene el link
+            6.1.1. git remote add origin link
+            6.1.2. git branch -M master
+            6.1.3. git push -u origin master | git push --set-upstream origin master
+            Se debe establecer un flujo de datos con el remoto para no tener que escribir origin master
+            en cada push o pull, se coloca el upstream en la primera subida y luego se omite en las siguientes
+        6.2. Este proceso es automático cuando se hace el git clone
+    7. Clonar un proyecto de otra persona, pero directamente en Github - Fork
+        7.1. Navegando por Github se puede encontrar algún repositorio que nos agrade y se puede hacer
+        una copia de ese repositorio como base para otro proyecto o colaborar en él
+        7.2. Ingresar en el repositorio, darle click a fork y crearlo
+        7.3. A partir de allí ya se tiene un clon del proyecto original y se puede manipular como propio,
+        descargar en local, modificarlo, etc...
+    8. Solicitar el merge de los cambios al repositorio remoto - Pull Request
+        8.1. Una vez que se han completado los cambios en local, funcionan y están probados, estos se
+        suben a remoto a través de push, pero no se puede hacer merge directamente al master, para eso
+        existe el pull request, es una solicitud para aprobar el merge por el administrador del proyecto
+        8.2. En proyectos propios esto se da con las ramas, se posiciona en la rama y se hace click en
+        Compare & pull request o si se quiere separar, click en contribute, ahí se compara primero y 
+        luego se hace el pull request
+        8.3. En proyectos fork se hace el contribute y se espera respuesta del administrador
+        8.4. El administrador es notificado por Github del pull request y este evalúa para la aprobación
+        8.5. De ser aceptados los cambios, se hace un merge en el master
+        8.6. En el caso de hacer esto desde un fork, se usa el botón sync fork, en caso de clone se usa
+        fetch y pull
+    9. Agendar tareas - Issues (es similar a trello)
+        9.1. Los issues son una funcionalidad que tiene Github para hacer un seguimiento y tener control
+        sobre los requerimientos del proyecto, es muy similar o prácticamente igual que usar trello, la
+        gran diferencia es que se puede explotar al sincronizar el repositorio y llevar un control de
+        las tareas respecto a las ramas y los pull request. 
+        9.2. La gran potencialidad es: proyecto - repositorio - issues
+        9.3. Los issues son tareas y los milestones son agrupaciones de tareas que se le asignan a un
+        responsable, se abren y se cierran
+    10. Buenas prácticas
+        10.1. Configurar correctamente las credenciales
+        10.2. Agregar un .gitignore al proyecto
+        10.3. Al crear una rama esta debe tener un objetivo, al cumplir el objetivo se elimina
+        10.4. Los nombres de las ramas deben ser kebab-case y tener nombres descriptivos
+        10.5. Hacer pruebas locales antes de solicitar el pull request
+        10.6. No se debe trabajar en el master, siempre se debe crear ramas para corregir errores,
+        agregar nuevas funcionalidades y realizar optimizaciones
+        10.7. Utilizar estrategias de branching, es decir, conocer rebase y squash
+        10.8. Los commits deben ser significativos y atómicos, es decir, se deben realizar por cada cambio
+        importante que se realiza y se termina
+        10.9. Los commits deben tener un mensaje claro y conciso
+        10.11. Ejecutar git fetch eventualmente para estar actualizado respecto al repositorio remoto
+        10.12. Usar tags para cambios importantes
+        10.13. Mantener el historial limpio, eliminar ramas locales y remotas que ya no se usan
+        10.14. Evitar hacer commits innecesarios y no relacionados 
+    11. Próximos pasos
+        11.1. Git stash         - área para guardar temporalmente cambios no confirmados y hacer otra cosa
+        11.2. Git cherry-pick   - tomar un commit específico de una rama a otra para evitar el merge
+        11.3. Github milestones - organizar y rastrear todo un grupo de pull request e issues 
+        11.3. Git rebase        - permite tener un historial limpio pasando las referencias a otra rama
+        11.4. Git squash        - agrupa todos los cambios de una rama en un único commit y luego a master
+        11.5. Github Submódulos - agregar un repositorio dentro de otro
+        11.6. Git hooks         - similares a los triggers, permite ejecutar un script antes o después de un evento
+        11.7. Git bisect        - permite determinar cuál fue el commit que introdujo un bug
+        11.8. Github actions    - permite programar eventos para el deploy
+        11.9. Git & Github flow - metodologías de trabajo
+    12. Se quedó en el minuto 4:11:46 - Fin del curso github

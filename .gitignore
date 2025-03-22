@@ -1,0 +1,5 @@
+#Ignorar todos los archivos .txt
+git-curso/*.txt
+
+#Anula la regla para este archivo
+!git-curso/instrucciones.txt
