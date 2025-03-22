@@ -29,11 +29,44 @@ Se inició el curso de VSC de Soy Dalto:
             terminal para poder trabajar desde consola sin salir del editor
             - Run and debug: es una herramienta de ejecución y debug integrada a vsc
             - Extensions: es un marketplace para instalarle mejoras a vscode
-                * Theme:  palenight
-                * Format: prettier
-                * Icons:  breaded icons
-                * Basic:  gitlens
-                * Basic:  intellicode
+                * Basic:  
+                    + Gitlens
+                    + Intellicode
+                * Format: 
+                    + Prettier
+                    + Indent-rainbow
+                * Icons:  
+                    + Material icon theme 
+                    + Breaded icons 
+                * Theme:  
+                    + Dracula theme official 
+                    + Palenight 
+                    + One dark pro
+                * Web:
+                    ** Frontend:
+                        + HTML:
+                        + CSS:
+                        + Javascript:
+                            > Javascript Snippet Pack
+                        + Tailwind:
+                            > Tailwind CSS IntelliSense
+                        + Alpine:
+                            > Alpine.js IntelliSense
+                        + Servidor de desarrollo:
+                            > Live Server
+                    ** Backend:
+                        + PHP:
+                            > PHP intelephense
+                        + Laravel:
+                            > Laravel Snippets
+                            > Laravel goto view
+                            > Laravel Blade Snippets
+                            > Laravel Blade formatter
+                ** Configuraciones
+                    -- Auto save: guardado automático    - ctrl + shift + p "File: toggle auto save"
+                    -- Word wrap: delimitador de espacio - ctrl + shift + p "View: Toggle Word Wrap"
+                    -- Linked editing: sirve para afectar afectar los cambios de una etiqueta en la de su cierre - ctrl + shift + p "Preferences: Open User Settings (JSON)" - 
+                    "editor.cursorBlinking": "expand", "editor.linkedEditing": true
             - Accounts
             - Manage
         5.2. Recomendó ver el curso de git
