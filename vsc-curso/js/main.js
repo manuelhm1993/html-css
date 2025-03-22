@@ -1,9 +1,8 @@
-let numA = 30;
-let numB = 20;
+const sumar = (numA, numB) => numA + numB;
 
-let resultado = numB + numA;
-
-resultado++;
-resultado++;
+let numA = 5;
+let numB = 2;
+let numC = 6;
+let resultado = sumar(numA, numB);
 
 console.log(`${numA} + ${numB} = ${resultado}`);
