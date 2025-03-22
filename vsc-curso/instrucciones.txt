@@ -83,4 +83,8 @@ Se inició el curso de VSC de Soy Dalto:
     7. Atajos de teclado
         7.1. Selección múltiple: seleccionar la palabra y luego ctrl + shift + l
         7.2. Plegar y desplegar bloques: ctrl + shift + (botones a la derecha de cero | o)
-    8. Se quedó en el minuto 1:39.00
+    8. Snippets
+        8.1. Pedazos de código que se pueden usar con una llamada o plantillas que hacen más fácil ejecutar 
+        un código, las típicas ayudas de completado del intellisense
+        8.2. Se puede crear snippets propias: ctrl + shift + p: "Snippets: Configure Snippets"
+    9. Se quedó en el minuto 1:39.00
