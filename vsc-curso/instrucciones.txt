@@ -67,8 +67,17 @@ Se inició el curso de VSC de Soy Dalto:
                     -- Word wrap: delimitador de espacio - ctrl + shift + p "View: Toggle Word Wrap"
                     -- Linked editing: sirve para afectar afectar los cambios de una etiqueta en la de su cierre - ctrl + shift + p "Preferences: Open User Settings (JSON)" - 
                     "editor.cursorBlinking": "expand", "editor.linkedEditing": true
-            - Accounts
-            - Manage
         5.2. Recomendó ver el curso de git
             5.2.1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
-    6. Se quedó en el minuto 1:05.00
+    6. User Settings (JSON)
+        6.1. Permite configurar vscode en la forma de un objeto json:
+            {
+                "terminal.integrated.defaultProfile.windows": "Git Bash",
+                "workbench.colorTheme": "Dracula Theme Soft",
+                "workbench.iconTheme": "material-icon-theme",
+                "editor.cursorBlinking": "expand",
+                "editor.linkedEditing": true,
+                "window.zoomLevel": 2,
+                "editor.smoothScrolling": true
+            }
+    7. Se quedó en el minuto 1:26.36
