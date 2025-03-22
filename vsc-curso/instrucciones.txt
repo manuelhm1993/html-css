@@ -92,4 +92,8 @@ Se inició el curso de VSC de Soy Dalto:
         instalado por defecto en vscode, anteriormente había que instalarlo manualmente en sublime text 3
         9.2. En html puede funcionar de esta forma: header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link{Link $}
         9.3. En css son el menú intellisense, pero funciona distinto como en: m10p = margin: 10%;
-    10. Se quedó en el minuto 1:48.48
+    10. Pair programming (copilot)
+        10.1. Es una técnica de desarrollo en la que trabajan dos programadores juntos en un proyecto
+            10.1.1. Rol driver:  es el que se encarga de escribir el código
+            10.1.2. Rol copilot: es el que revisa el código a medida que el driver lo escribe y ayuda con ideas
+    11. Se quedó en el minuto 2:20.01 - Fin del curso de VSC
