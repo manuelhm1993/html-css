@@ -87,4 +87,9 @@ Se inició el curso de VSC de Soy Dalto:
         8.1. Pedazos de código que se pueden usar con una llamada o plantillas que hacen más fácil ejecutar 
         un código, las típicas ayudas de completado del intellisense
         8.2. Se puede crear snippets propias: ctrl + shift + p: "Snippets: Configure Snippets"
-    9. Se quedó en el minuto 1:39.00
+    9. Emmet
+        9.1. Es un plugin que permite escribir código html y css complejo a través de expresiones y ya viene
+        instalado por defecto en vscode, anteriormente había que instalarlo manualmente en sublime text 3
+        9.2. En html puede funcionar de esta forma: header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link{Link $}
+        9.3. En css son el menú intellisense, pero funciona distinto como en: m10p = margin: 10%;
+    10. Se quedó en el minuto 1:48.48
