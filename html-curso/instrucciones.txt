@@ -4,4 +4,15 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         2.1. https://www.youtube.com/watch?v=TbzrOz8HbFM&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=51
         2.2. Recomendó ver el curso de git
             2.2.1. https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=46
-    3. Se quedó en el minuto 30
+    3. Extensiones recomendadas HTML:
+        3.1. Prettier: formateador de código
+        3.2. Indent-rainbow: dibuja el identado en colores
+        3.3. Image preview: permite visualizar las imágenes referenciadas
+        3.4. Live server: permite ver las modificaciones frontend en tiempo real
+    4. HTML - Estructura de carpetas
+        4.1. Los servidores están programados para que el primer archivo en leer sea el index.(html, php...)
+        4.2. Estructura de una etiqueta <tag>Contenido</tag>
+        4.3. Las etiquedas tienen un significado semántico y si se usan correctamente se crea SEO
+    5. Shortcuts
+        5.1. Ctrl + q: permite navegar por los paneles de vscode
+    4. Se quedó en el minuto 30
