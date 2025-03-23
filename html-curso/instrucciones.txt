@@ -9,10 +9,17 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         3.2. Indent-rainbow: dibuja el identado en colores
         3.3. Image preview: permite visualizar las imágenes referenciadas
         3.4. Live server: permite ver las modificaciones frontend en tiempo real
-    4. HTML - Estructura de carpetas
-        4.1. Los servidores están programados para que el primer archivo en leer sea el index.(html, php...)
-        4.2. Estructura de una etiqueta <tag>Contenido</tag>
-        4.3. Las etiquedas tienen un significado semántico y si se usan correctamente se crea SEO
-    5. Shortcuts
-        5.1. Ctrl + q: permite navegar por los paneles de vscode
-    4. Se quedó en el minuto 30
+    4. Shortcuts
+        4.1. Ctrl + q: permite navegar por los paneles de vscode
+    5. HTML - Estructura de etiquetas
+        5.1. Los servidores están programados para que el primer archivo en leer sea el index.(html, php...)
+        5.2. Estructura de una etiqueta <tag>Contenido</tag>
+        5.3. Las etiquedas tienen un significado semántico y si se usan correctamente se crea SEO
+    6. HTML - Estructura básica de una página web
+        6.1. <!DOCTYPE html> Etiqueta principal que indica la versión de html en uso
+        6.2. <html></html> Etiqueta html que indica que su contenido es un sitio web
+        6.3. <head></head> Etiqueta que va dentro de html e indica una colección de metadatos
+        6.4. <body></body> Etiqueta que define el contenido visual del sitio web
+    7. HTML - Párrafos y encabezados
+        7.1. 
+    6. Se quedó en el minuto 45.54
