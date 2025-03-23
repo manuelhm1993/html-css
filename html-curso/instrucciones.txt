@@ -21,5 +21,7 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         6.3. <head></head> Etiqueta que va dentro de html e indica una colección de metadatos
         6.4. <body></body> Etiqueta que define el contenido visual del sitio web
     7. HTML - Párrafos y encabezados
-        7.1. 
-    6. Se quedó en el minuto 45.54
+        7.1. Etiqueta <p></p>: permite definir párrafos, estos deben tener una idea y un punto específico
+        7.2. Etiqueta <h1-6></h1-6>: define encabezados desde el título principal de la página, hasta contenido
+        importante, siendo el h1 definido una sola vez como título y los demás pueden repetirse como subtítulos
+    9. Se quedó en el minuto 1:00.09
