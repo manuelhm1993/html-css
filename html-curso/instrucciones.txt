@@ -24,4 +24,8 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         7.1. Etiqueta <p></p>: permite definir párrafos, estos deben tener una idea y un punto específico
         7.2. Etiqueta <h1-6></h1-6>: define encabezados desde el título principal de la página, hasta contenido
         importante, siendo el h1 definido una sola vez como título y los demás pueden repetirse como subtítulos
-    9. Se quedó en el minuto 1:00.09
+    8. HTML - Listas
+        8.1. Ordenadas <ol></ol>: permite definir una lista de elementos enumerada
+        8.2. Desordenadas <ul></ul>: permite definir una lista de elemntos con viñetas
+        8.3. Item de lista <li></li>: son los elementos de la lista para ambos tipos
+    9. Se quedó en el minuto 1:01.24
