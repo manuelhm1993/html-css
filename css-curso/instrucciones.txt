@@ -32,5 +32,16 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         6.4. Selector de id: es el que tiene más prioridad, pero solo se aplica a 1 elemento, se agrega el
         atributo id a una etiqueta html <section id="main"></section> y se llama en css con #main
     7. CSS básico - Propiedades y fuentes de texto
-        7.1. 
-    8. Se quedó en el minuto 2:18.05
+        7.1. Son las propiedades para formatear texto, la mayoría son básicas e intuitivas, como: color,
+        fuente, tamaño, pero a destacar está el grosor:
+            7.1.1. Las tipografías varían en grosor de 100-900 de fino a grueso
+            7.1.2. bold = 700
+            7.1.3. bolder detecta el máximo grosor y lo aumenta al siguiente nivel
+        7.2. font-style: indica si va de normal o cursiva 
+        7.3. text-align: indica el justificado
+        7.4. text-decoration: indica el subrayado
+        7.5. line-height: indica el interlineado
+        7.6. text-transform: transforma el texto entre minúscula, mayúscula, capitalize...
+    8. CSS básico - tipografías externas
+        8.1.
+    9. Se quedó en el minuto 2:44.56
