@@ -25,5 +25,12 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             5.4.3. Declaración: propiedad: valor;
             5.4.4. Regla css: p { color: red; }
     6. CSS básico - Selectores
-        6.1.
-    7. Se quedó en el minuto 2:08.25
+        6.1. Son la forma que se tiene para seleccionar uno o varios elementos dentro de un documento html
+        6.2. Selector de etiqueta o elemento: h1 {}
+        6.3. Selector de clase: se crea una clase en css (.destacado) y se escriben allí las reglas, luego
+        se agrega el atributo class="" a los elementos html que se desea modificar <img class="destacado">
+        6.4. Selector de id: es el que tiene más prioridad, pero solo se aplica a 1 elemento, se agrega el
+        atributo id a una etiqueta html <section id="main"></section> y se llama en css con #main
+    7. CSS básico - Propiedades y fuentes de texto
+        7.1. 
+    8. Se quedó en el minuto 2:18.05

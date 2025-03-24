@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Aplicando estilos con CSS</title>
-
-    <!-- Estilo interno -->
-    <!-- <style>
-        p {
-            color: red;
-        }
-
-        h1 {
-            color: blue;
-        }
-    </style> -->
+    <title>Selectores CSS</title>
 
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>TITULO</h1>
+    <h1>Ingredientes</h1>
 
-    <!-- Estilo en línea -->
-    <!-- <p style="color: red; font-size: 20px;"> -->
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vitae dolor molestiae assumenda quae laudantium iste placeat exercitationem, voluptatibus, nesciunt repellendus perferendis omnis ducimus, sint voluptatum voluptas ipsa corporis est?
-    </p>
+    <ul>
+        <!-- Atributo class para agrupar elementos (puede repetirse) -->
+        <li class="ingrediente-faltante">Harina</li>
+        <li>Aceite</li>
+        <li>Leche</li>
+        <li class="ingrediente-faltante">Sal</li>
+        <!-- Atributo id para identificar un elemento como único -->
+        <li id="ingrediente-secreto">Amor</li>
+    </ul>
 </body>
 </html>

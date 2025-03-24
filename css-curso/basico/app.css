@@ -1,3 +1,14 @@
-p {
+/* Selector de etiqueta */
+li {
+    color: grey;
+} 
+
+/* Selector de clase */
+.ingrediente-faltante {
     color: red;
+}
+
+/* Selector de id */
+#ingrediente-secreto {
+    color: blue;
 }
