@@ -28,4 +28,7 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         8.1. Ordenadas <ol></ol>: permite definir una lista de elementos enumerada
         8.2. Desordenadas <ul></ul>: permite definir una lista de elemntos con viñetas
         8.3. Item de lista <li></li>: son los elementos de la lista para ambos tipos
-    9. Se quedó en el minuto 1:01.24
+    9. HTML - Enlaces ó Hipervínculos
+        9.1. Etiqueta <a href=""></a>: permite enlazar archivos y navegar entre páginas
+    10. HTML - Imagenes
+    11. Se quedó en el minuto 1:26.10
