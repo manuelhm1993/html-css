@@ -41,4 +41,14 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             11.2.3. Directorio adelante: ./src
         11.3. Para redireccionar fuera del sitio web o enlazar recursos externos se usan rutas absolutas, 
         para trabajar dentro del sitio web, siempre se usan rutas relativas
-    12. Se quedó en el minuto 1:26.10
+    12. HTML - básico - Formularios
+        12.1. Son la forma de interacción con el usuario para solicitarle información y que pueda personalizar
+        su navegación
+        12.2. Etiqueta <form></form>: sirve para construir un formulario con inputs en su interior
+        12.3. Etiqueta <input type=""/>: sirve para definir campos del formulario y varían según su tipo
+        12.4. Atributos importantes para trabajar con Formularios
+            12.4.1. required: valida que el campo sea obligatorio a nivel de frontend
+            12.4.2. name: identifica el campo para que pueda ser rescatado por el backend
+            12.4.3. placeholder: es una marca de agua que indica al usuario que escribir en ese campo
+            12.4.4. value: es el contenido del campo, lo que recibe el backend
+    13. Se quedó en el minuto 1:56.45
