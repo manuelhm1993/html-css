@@ -7,6 +7,7 @@ p {
     text-align: justify; /* Justificado */
     line-height: 2; /* Interlineado */
     letter-spacing: 1px; /* Espaciado entre letras */
+    font-weight: 400;
 }
 
 p span {

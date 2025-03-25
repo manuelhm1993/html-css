@@ -47,5 +47,13 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         8.2. Básicamente si se quiere usar una fuente muy especial que no está instalada en todos los SO
         se busca en google fonts y se puede instalar via CDN que es lo más sencillo, se busca el link y
         se coloca en el head de html, luego se crea la regla css
-        8.3. La forma recomendada es descargando la fuente e instalarla en el proyecto
-    9. Se quedó en el minuto 2:44.56
+        8.3. La forma recomendada es descargando la fuente e instalarla en el proyecto, el mismo proceso
+        de buscar en google fonts, pero en este caso en lugar de usar el link, se debe descargar la fuente
+        agregarla a los assets y luego configurarla con la regla @font-face
+            8.3.1. Regla:               @font-face {
+            8.3.2. Nombre de la fuente:     font-family: "Nombre";
+            8.3.3. Ubicación y formato:     src: url("./relative.ttf") format("truetype");
+            8.3.4. Grosor:                  font-weight: 100-900; 
+                                        }
+            Luego se crea la regla css llamando al nombre y el grosor
+    9. Se quedó en el minuto 2:55.24
