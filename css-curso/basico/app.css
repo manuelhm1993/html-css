@@ -1,21 +1,17 @@
-/* Modelo de caja */
-.formulario {
-    background: red;
-    padding: 30px;
+body {
+    margin: 0;
 }
 
-.formulario-input {
-    padding: 9px 10px;
-    width: 90%;
-    background: black;
-    color: red;
-    margin: 10px;
+.box1 {
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px; 
 }
 
-.formulario-submit {
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.box2 {
     background: red;
-    color: white;
-    width: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px; 
 }

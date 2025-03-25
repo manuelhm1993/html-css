@@ -75,5 +75,10 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             se le aplica el porcentaje que usará del espacio del padre 
         9.4. Padding: espacio que hay entre el contenido y el borde de una caja o contenedor, aumenta el
         tamaño que hay al rededor del contenido, pero adentro de los bordes, básicamente relleno
-        9.5. Margin:
-    10. Se quedó en el minuto 3:10.00
+            9.4.1. padding: arriba, derecha, abajo, izquierda
+            9.4.2. padding: vertical, horizontal
+            9.4.3. padding-(top,right,bottom,left)
+        9.5. Margin: espacio que hay entre el contenedor o caja y el resto de elementos, se define igual
+        que el padding, pero se debe tener en consideración el margin-collapse, significa que el margen superior
+        o de más tamaño será el margen final respecto a su siguiente contenedor, esto evita cálculos matemáticos
+    10. Se quedó en el minuto 3:23.45
