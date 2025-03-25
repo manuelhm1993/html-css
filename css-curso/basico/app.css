@@ -1,20 +1,10 @@
-/* Formatear el texto */
-p {
-    color: red; 
-    font-family: "Montserrat";
-    font-size: 13px;
-    font-style: italic; /* Tipo de letra: normal o cursiva */
-    text-align: justify; /* Justificado */
-    line-height: 2; /* Interlineado */
-    letter-spacing: 1px; /* Espaciado entre letras */
-    font-weight: 400;
-}
-
-p span {
-    color: brown;
-    text-decoration: line-through; /* Subrayado */
+/* Modelo de caja */
+div {
+    background: red;
+    width: 300px;
+    height: 100px;
 }
 
 h1 {
-    text-align: center;
+    background: blue;
 }

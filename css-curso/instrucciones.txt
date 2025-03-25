@@ -56,4 +56,17 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             8.3.4. Grosor:                  font-weight: 100-900; 
                                         }
             Luego se crea la regla css llamando al nombre y el grosor
-    9. Se quedó en el minuto 2:55.24
+    9. CSS básico - Modelo de caja
+        9.1. Es un concepto que define como se posicionan y diseñan los elementos html en una página web
+        9.2. Cada elemento es una caja, esta caja incluye varias propiedades que definen como se muestra
+        el elemento en la página
+            9.2.1. Caja:
+                - Content: es el núcleo del box model, es el área donde se muestra el texto
+                - Padding: es el espacio entre el contenido y el borde del elemento, aumenta el área al 
+                rededor del contenido dentro del elemento, pero bajo el borde
+                - Border: es una línea que rodea al contenido y al padding, se puede controlar el estilo,
+                el grosor y el color del borde
+                - Margin: es el espacio al rededor de la caja que está fuera del borde, este espacio separa
+                el elemento de otros elementos en la página y a diferencia de las demás, no es parte de la 
+                caja 
+    10. Se quedó en el minuto 2:55.24
