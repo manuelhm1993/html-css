@@ -1,8 +1,27 @@
 /* Modelo de caja */
-input {
-    width: 90%; /* Ocupa el 90% de la caja que lo contiene */
+.formulario {
+    background: red;
+
+    /* PRIMERA FORMA DE DEFINIR PADDING */
+    /* Relleno del contenido de la caja hacia arriba */
+    padding-top: 10px;
+    /* Relleno del contenido de la caja hacia la derecha */
+    padding-right: 0;
+    /* Relleno del contenido de la caja hacia abajo */
+    padding-bottom: 40px;
+    /* Relleno del contenido de la caja hacia la izquierda */
+    padding-left: 20px;
+
+    /* SEGUNDA FORMA DE DEFINIR PADDING */
+    /* El padding se lee en modo horario: arriba, derecha, abajo e izquierda */
+    padding: 10px 0 40px 20px;
+
+    /* TERCERA FORMA DE DEFINIR PADDING */
+    /* El padding de esta manera se define: vertical y horizontal */
+    padding: 20px 10px;
 }
 
-form {
-    width: 400px;
+.formulario-input {
+    /* Relleno del contenido de la caja */
+    padding: 10px;
 }
