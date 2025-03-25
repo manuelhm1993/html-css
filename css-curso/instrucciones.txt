@@ -68,5 +68,11 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
                 el grosor y el color del borde
                 - Margin: es el espacio al rededor de la caja que está fuera del borde, este espacio separa
                 el elemento de otros elementos en la página y a diferencia de las demás, no es parte de la 
-                caja 
-    10. Se quedó en el minuto 2:55.24
+                caja
+        9.3. Width y Height
+            9.3.1. Definen el ancho y el alto de un elemento, normalmente se mide en pixeles, pero para
+            aplicar el responsive, se usan porcentajes, en ese caso se usa un contenedor padre y al hijo
+            se le aplica el porcentaje que usará del espacio del padre 
+        9.4. Margin
+        9.5. Padding
+    10. Se quedó en el minuto 3:07.04

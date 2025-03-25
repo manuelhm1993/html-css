@@ -1,10 +1,8 @@
 /* Modelo de caja */
-div {
-    background: red;
-    width: 300px;
-    height: 100px;
+input {
+    width: 90%; /* Ocupa el 90% de la caja que lo contiene */
 }
 
-h1 {
-    background: blue;
+form {
+    width: 400px;
 }
