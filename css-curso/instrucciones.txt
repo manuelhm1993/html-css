@@ -43,5 +43,9 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         7.5. line-height: indica el interlineado
         7.6. text-transform: transforma el texto entre minúscula, mayúscula, capitalize...
     8. CSS básico - tipografías externas
-        8.1.
+        8.1. Recurso: https://fonts.google.com/
+        8.2. Básicamente si se quiere usar una fuente muy especial que no está instalada en todos los SO
+        se busca en google fonts y se puede instalar via CDN que es lo más sencillo, se busca el link y
+        se coloca en el head de html, luego se crea la regla css
+        8.3. La forma recomendada es descargando la fuente e instalarla en el proyecto
     9. Se quedó en el minuto 2:44.56
