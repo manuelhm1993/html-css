@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#in {
+    background: rgb(230, 230, 230);
+    border-bottom: 2px solid rgb(172, 172, 172);
+    padding: 25px 20px;
+}
+
+#in div {
+    margin-bottom: 5px;
+}
+
+#in div:last-child {
+    margin-bottom: 0;
+}
+
+.danger {
+    color: red;
+}
+
+#out #contenido {
+    background: rgb(133, 198, 228);
+    border: 1px solid black;
+    width: max-content;
+    height: max-content;
+}

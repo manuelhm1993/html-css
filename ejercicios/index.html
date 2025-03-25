@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Box model - container</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <main id="main">
+        <section id="in">
+            <form id="controls">
+                <div class="danger">
+                    <label for="width">Width:</label>
+                    <input type="range" min="0" max="2000" name="width" id="width" value="98">
+                </div>
+                <div class="danger">
+                    <label for="height">Height:</label>
+                    <input type="range" min="0" max="900" name="height" id="height" value="20">
+                </div>
+                <div>
+                    <label for="padding">Padding:</label>
+                    <input type="range" min="0" max="500" name="padding" id="padding" value="0">
+                </div>
+                <div>
+                    <label for="margin">Margin:</label>
+                    <input type="range" min="0" max="100" name="margin" id="margin" value="0">
+                </div>
+                <div>
+                    <label for="border-width">Border Width:</label>
+                    <input type="range" min="0" max="100" name="border-width" id="border-width" value="1">
+                </div>
+                <div>
+                    <label for="border-radius">Border Radius:</label>
+                    <input type="range" min="0" max="100" name="border-radius" id="border-radius" value="0">
+                </div>
+                <div>
+                    <label for="box-sizing">Box Sizing:</label>
+                    <select name="box-sizing" id="box-sizing">
+                        <option value="content-box">Content-box</option>
+                        <option value="boder-box">Boder-box</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+        <section id="out">
+            <div id="contenido">CONTENIDO</div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
