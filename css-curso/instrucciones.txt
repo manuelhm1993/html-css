@@ -73,6 +73,7 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             9.3.1. Definen el ancho y el alto de un elemento, normalmente se mide en pixeles, pero para
             aplicar el responsive, se usan porcentajes, en ese caso se usa un contenedor padre y al hijo
             se le aplica el porcentaje que usará del espacio del padre 
-        9.4. Margin
-        9.5. Padding
-    10. Se quedó en el minuto 3:07.04
+        9.4. Padding: espacio que hay entre el contenido y el borde de una caja o contenedor, aumenta el
+        tamaño que hay al rededor del contenido, pero adentro de los bordes, básicamente relleno
+        9.5. Margin:
+    10. Se quedó en el minuto 3:10.00
