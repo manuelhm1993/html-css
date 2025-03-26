@@ -83,7 +83,13 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         o de más tamaño será el margen final respecto a su siguiente contenedor, esto evita cálculos matemáticos
             9.5.1. Centrar una caja: margin: 0 auto;
         9.6. Border
-            9.6.1.
+            9.6.1. border-width: permite modificar el grosor o tamaño del borde
+            9.6.2. border-style: permite modificar el estilo del borde
+            9.6.3. border-color: permite modificar el color del borde
+            9.6.4. Shorthand: border: medida, estilo, color
+            9.6.5. border-(top, right, bottom, left): permiten modificar lados individuales del borde
+            9.6.6. border-radius: permite modificar el redondeo del borde, se puede trabajar en px o en %
+            el estilo de redondeo cambia de uno a otro
     10. CSS básico - primer ejercicio
         10.1. El primer ejercicio fue replicar el ejemplo que usó el profesor para explicar el modelo de caja
         no fue explicado, pero se replicó como práctica

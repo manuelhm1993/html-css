@@ -1,17 +1,19 @@
-body {
-    margin: 0;
+div {
+    background: red;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.box1 {
-    background: red;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 30px; 
-}
+/* Trabajo con bordes */
+div {
+    /* Tamaño, estilo y color deben estar definidos los tres para que tenga efecto */
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
 
-.box2 {
-    background: red;
-    height: 150px;
-    width: 150px;
-    margin-top: 30px; 
+    /* La propiedad border incluye las 3 y es la más común en ser usada */
+    border: 3px solid black;
+    border-radius: 4px;
 }
