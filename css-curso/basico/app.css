@@ -1,14 +1,24 @@
 body {
-    background: black;
+    margin: 0;
 }
 
-input {
-    display: block;
-    margin: 5px;
-    padding: 6px 9px;
-    background: transparent;
-    color: greenyellow;
-    border: none;
-    border-bottom: 1px solid greenyellow;
-    border-radius: 5px;
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default {
+    /* Width y height se aplican al contenido y padding, margin y border suman al tamaño */
+    box-sizing: content-box;
+    padding: 25px;
+    border: 10px solid black;
+}
+
+.box-new {
+    /* Ajusta el tamaño de la caja tomando en cuenta el padding y border y quedan fijos */
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
 }

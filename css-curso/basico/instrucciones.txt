@@ -91,9 +91,19 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             9.6.6. border-radius: permite modificar el redondeo del borde, se puede trabajar en px o en %
             el estilo de redondeo cambia de uno a otro
         9.7. Tamaño de caja (box-sizing)
-            9.7.1. 
-    10. CSS básico - primer ejercicio
+            9.7.1. El box-sizing es una propiedad de css que se usa para afectar el funcionamiento del modelo 
+            de caja predeterminado, el modelo de caja es como los navegadores calculan el total del tamaño de un
+            elemento
+            9.7.2. box-sizing: content-box; es el valor por defecto que tienen las cajas, el tamaño que se le da
+            a la caja solo se aplica al contenido, es decir, width y height se aplican al contenido de la caja,
+            pero si se agregan padding, border y margin, esto se suma al tamaño de la caja
+            9.7.3. box-sizing: border-box; esto es una novedad y aplica el tamaño al borde de la caja, es decir,
+            que a width y height se les suma padding y border y eso es el tamaño de la caja, no el margin. Si
+            luego se agregan padding y border, entonces el contenido se ajusta para que no sobrepase la medida
+    10. CSS básico - Primer ejercicio
         10.1. El primer ejercicio fue replicar el ejemplo que usó el profesor para explicar el modelo de caja
         no fue explicado, pero se replicó como práctica
         10.2. El primer ejercicio del curso fue crear una card simple
-    11. Se quedó en el minuto 3:53.42
+    11. CSS básico - Colores
+        11.1.
+    12. Se quedó en el minuto 4:02.09
