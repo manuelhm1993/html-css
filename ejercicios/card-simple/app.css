@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    color: white;
+}
+
+.card {
+    background: blue;
+    text-align: center;
+    width: 330px;
+    margin: 20px auto 0 auto;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background: royalblue;
+    text-align: justify;
+}

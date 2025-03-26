@@ -81,4 +81,11 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
         9.5. Margin: espacio que hay entre el contenedor o caja y el resto de elementos, se define igual
         que el padding, pero se debe tener en consideración el margin-collapse, significa que el margen superior
         o de más tamaño será el margen final respecto a su siguiente contenedor, esto evita cálculos matemáticos
-    10. Se quedó en el minuto 3:23.45
+            9.5.1. Centrar una caja: margin: 0 auto;
+        9.6. Border
+            9.6.1.
+    10. CSS básico - primer ejercicio
+        10.1. El primer ejercicio fue replicar el ejemplo que usó el profesor para explicar el modelo de caja
+        no fue explicado, pero se replicó como práctica
+        10.2. El primer ejercicio del curso fue crear una card simple
+    11. Se quedó en el minuto 3:37.59
