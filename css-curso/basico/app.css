@@ -1,19 +1,14 @@
-div {
-    background: red;
-    margin: 0 auto;
-    width: 150px;
-    text-align: center;
-    text-transform: uppercase;
+body {
+    background: black;
 }
 
-/* Trabajo con bordes */
-div {
-    /* Tamaño, estilo y color deben estar definidos los tres para que tenga efecto */
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
-
-    /* La propiedad border incluye las 3 y es la más común en ser usada */
-    border: 3px solid black;
-    border-radius: 4px;
+input {
+    display: block;
+    margin: 5px;
+    padding: 6px 9px;
+    background: transparent;
+    color: greenyellow;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    border-radius: 5px;
 }

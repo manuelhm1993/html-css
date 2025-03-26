@@ -90,8 +90,10 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             9.6.5. border-(top, right, bottom, left): permiten modificar lados individuales del borde
             9.6.6. border-radius: permite modificar el redondeo del borde, se puede trabajar en px o en %
             el estilo de redondeo cambia de uno a otro
+        9.7. Tamaño de caja (box-sizing)
+            9.7.1. 
     10. CSS básico - primer ejercicio
         10.1. El primer ejercicio fue replicar el ejemplo que usó el profesor para explicar el modelo de caja
         no fue explicado, pero se replicó como práctica
         10.2. El primer ejercicio del curso fue crear una card simple
-    11. Se quedó en el minuto 3:37.59
+    11. Se quedó en el minuto 3:53.42
