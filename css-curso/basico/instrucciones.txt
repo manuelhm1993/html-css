@@ -115,5 +115,10 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             la nomenclatura completa #000000 o el método abreviado #000, para ambos casos se le agrega el alpha, otra capa
             que controla la opacidad de 0-F
     12. CSS básico - Unidades de medida
-        12.1. 
+        12.1. Medidas absolutas: se usan para tener control y ser precisos, es decir, tamaños fijos, no es la mejor solución para el responsive
+            12.1.1. Pixeles px: son medidas absolutas, son la parte más mínima de área de luz, se usan para definir normalmente alto y ancho de las imágenes, márgenes, padding y el tamaño de las tipografías
+            12.1.2. Puntos pt: son medidas absolutas que se usan para definir el tamaño de impresión
+            12.1.3. Milímetros mm, centímetros cm y pulgadas in: en las pantallas varía el diseño, pero en impresión si se respetan las medidas, en otras palabras, son medidas físicas y absolutas
+        12.2. Medidas relativas: son unidades que dependen de otro valor, por ejemplo otro contenedor, el tamaño fuente, etc... son ideales para el responsive design
+            12.2.1. Porcentaje %: siempre va a a ser respecto al tamaño de su contenedor
     13. Se quedó en el minuto 4:25:16

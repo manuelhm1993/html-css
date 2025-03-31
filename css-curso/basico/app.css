@@ -1,17 +1,24 @@
-.box {
-    /*background: rgb(255, 0, 0); */ /* Es lo mismo que background: red; */
-    /*background: rgba(0, 100, 255, .8); */ /* Agregamos la opacidad */
-    /*background: #0088ff; */ /* Es el mismo color de arriba */
-    /*background: #08f; */ /* Modo abreviado del hexadecimal */
-    /*background: #f80; */ /* Crear color naranja */
-    /*background: #0bd9;*/ /* Crear color celeste, en modo abreviado con opacidad 0-f */
-    padding: 20px 50px;
-    margin: 20px;
-    background: hsl(210, 40%, 85%);
-    margin-left: 100px;
-    text-align: center;
-    color: hsl(210, 40%, 45%);
-    border-top: 2px solid hsl(210, 40%, 45%); /* Fondo claro, texto oscuro | fondo oscuro, texto claro */
+div {
+    background: #ededed;
     font-family: sans-serif;
-    font-weight: bold;
+    border-left: 5px solid #999;
+    width: 200px; /* Pixeles, medida absoluta */
+}
+
+h1 {
+    margin: 0;
+    font-size: 23px;
+}
+
+span {
+    font-size: 16px;
+    color: #999;
+    font-weight: 100;
+}
+
+p {
+    color: #555;
+    background: #f00;
+    margin: 0;
+    width: 50%; /* Porcentaje, medida relativa respecto a su contenedor */
 }
