@@ -2,12 +2,21 @@ html {
     font-size: 30px;
 }
 
+body {
+    margin: 0;
+}
+
 div {
     background: #ededed;
     padding: 20px;
     font-family: sans-serif;
     border-left: 5px solid #999;
     font-size: 30px; /* Elemento padre */
+    /* Ideal para ventanas modales */
+    height: 80vh; /* El 80% de la altura de la pantalla */
+    width: 80vw; /* El 80% del ancho de la pantalla */
+    margin: 10vh auto; /* Centrado horizontal y vertical */
+    box-sizing: border-box;
 }
 
 h1 {
