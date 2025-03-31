@@ -123,5 +123,12 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             12.2.1. Porcentaje %: siempre va a a ser respecto al tamaño de su contenedor, funciona con margin y padding, pero en textos se toma el font-size del contenedor padre
             12.2.2. em: va a tomar el valor que se le indique y lo va a multiplicar por el font-size del elemento padre, es decir, si el padre tiene font-size de 30px, 1em del hijo vale 30px. Si el contenedor padre no tiene definido font-size, entonces busca a un padre por arriba
             12.2.3. rem: es la misma fórmula del em, pero en lugar de tomar de referencia al contenedor padre, va a tomar de referencia al contenedor raíz, es decir, la etiqueta html, si no es definido font-size, lo define el navegador, normalmente son 16px
-        12.3. Medidas del viewport: se usan para trabajar las medidas de la pantalla y su unidad es v
-    13. Se quedó en el minuto 4:25:16
+        12.3. Medidas del viewport: se usan para trabajar las medidas de la pantalla y su unidad es v, se puede definit ancho y alto de pantalla con vw y vh
+            12.3.1. 1vmax y 1vmin: 1vh y 1vw, esto compara el width y el height y devuelve el mayor y el menor respectivamente
+        12.4. Aplicabilidad práctica: 
+            12.4.1. Tamaños de fuente, espaciado, es decir, tipografías en general: em y rem
+            12.4.2. Layout o dimensiones de elementos: %, vw y vh, normalmente para diseños responsive
+            12.4.3. Diseños, bordes o medias fijas: px, pero no son reglas absolutas, siempre es importante conocer el mayor número de herramientas posibles, pero definir tu propio marco de trabajo
+    13. CSS básico - Fondos
+        13.1. 
+    14. Se quedó en el minuto 4:50:29
