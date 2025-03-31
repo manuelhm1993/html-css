@@ -1,14 +1,18 @@
+html {
+    font-size: 30px;
+}
+
 div {
     background: #ededed;
+    padding: 20px;
     font-family: sans-serif;
     border-left: 5px solid #999;
-    width: 400px; /* Pixeles, medida absoluta */
-    font-size: 200px;
+    font-size: 30px; /* Elemento padre */
 }
 
 h1 {
-    margin-left: 50%; /* Las medidas relativas siempre funcionan respecto al contenedor */
-    font-size: 10%; /* El porcentaje no funciona igual en los textos, ya que mide respecto al font-size del contenedor */
+    margin: 0;
+    font-size: 23px;
 }
 
 span {
@@ -19,8 +23,7 @@ span {
 
 p {
     color: #555;
-    background: #f00;
-    margin: 0;
-    width: 50%; /* Porcentaje, medida relativa respecto a su contenedor */
-    font-size: 14px;
+    /* em = font-size-x * font-size-padre */
+    font-size: .47em; /* 1em vale lo mismo que el font-size del elemento padre, para obtener 14px de 30px serían 0.47em */
+    font-size: .47rem; /* 1rem vale lo mismo que el font-size del elemento raíz, es decir, html */
 }

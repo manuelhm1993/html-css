@@ -120,5 +120,8 @@ Se está haciendo el curso de HTML y CSS de Soy Dalto:
             12.1.2. Puntos pt: son medidas absolutas que se usan para definir el tamaño de impresión
             12.1.3. Milímetros mm, centímetros cm y pulgadas in: en las pantallas varía el diseño, pero en impresión si se respetan las medidas, en otras palabras, son medidas físicas y absolutas
         12.2. Medidas relativas: son unidades que dependen de otro valor, por ejemplo otro contenedor, el tamaño fuente, etc... son ideales para el responsive design
-            12.2.1. Porcentaje %: siempre va a a ser respecto al tamaño de su contenedor
+            12.2.1. Porcentaje %: siempre va a a ser respecto al tamaño de su contenedor, funciona con margin y padding, pero en textos se toma el font-size del contenedor padre
+            12.2.2. em: va a tomar el valor que se le indique y lo va a multiplicar por el font-size del elemento padre, es decir, si el padre tiene font-size de 30px, 1em del hijo vale 30px. Si el contenedor padre no tiene definido font-size, entonces busca a un padre por arriba
+            12.2.3. rem: es la misma fórmula del em, pero en lugar de tomar de referencia al contenedor padre, va a tomar de referencia al contenedor raíz, es decir, la etiqueta html, si no es definido font-size, lo define el navegador, normalmente son 16px
+        12.3. Medidas del viewport: 
     13. Se quedó en el minuto 4:25:16
