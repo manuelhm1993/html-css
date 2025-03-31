@@ -1,24 +1,17 @@
-body {
-    margin: 0;
-}
-
 .box {
-    width: 100px;
-    height: 100px;
-    background: red;
-    margin: 10px;
-}
-
-.box-default {
-    /* Width y height se aplican al contenido y padding, margin y border suman al tamaño */
-    box-sizing: content-box;
-    padding: 25px;
-    border: 10px solid black;
-}
-
-.box-new {
-    /* Ajusta el tamaño de la caja tomando en cuenta el padding y border y quedan fijos */
-    box-sizing: border-box;
-    padding: 25px;
-    border: 10px solid black;
+    /*background: rgb(255, 0, 0); */ /* Es lo mismo que background: red; */
+    /*background: rgba(0, 100, 255, .8); */ /* Agregamos la opacidad */
+    /*background: #0088ff; */ /* Es el mismo color de arriba */
+    /*background: #08f; */ /* Modo abreviado del hexadecimal */
+    /*background: #f80; */ /* Crear color naranja */
+    /*background: #0bd9;*/ /* Crear color celeste, en modo abreviado con opacidad 0-f */
+    padding: 20px 50px;
+    margin: 20px;
+    background: hsl(210, 40%, 85%);
+    margin-left: 100px;
+    text-align: center;
+    color: hsl(210, 40%, 45%);
+    border-top: 2px solid hsl(210, 40%, 45%); /* Fondo claro, texto oscuro | fondo oscuro, texto claro */
+    font-family: sans-serif;
+    font-weight: bold;
 }
