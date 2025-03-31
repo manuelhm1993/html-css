@@ -2,12 +2,13 @@ div {
     background: #ededed;
     font-family: sans-serif;
     border-left: 5px solid #999;
-    width: 200px; /* Pixeles, medida absoluta */
+    width: 400px; /* Pixeles, medida absoluta */
+    font-size: 200px;
 }
 
 h1 {
     margin: 0;
-    font-size: 23px;
+    font-size: 10%; /* El porcentaje no funciona igual en los textos, ya que mide respecto al font-size del contenedor */
 }
 
 span {
@@ -21,4 +22,5 @@ p {
     background: #f00;
     margin: 0;
     width: 50%; /* Porcentaje, medida relativa respecto a su contenedor */
+    font-size: 14px;
 }
