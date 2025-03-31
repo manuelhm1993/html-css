@@ -7,7 +7,7 @@ div {
 }
 
 h1 {
-    margin: 0;
+    margin-left: 50%; /* Las medidas relativas siempre funcionan respecto al contenedor */
     font-size: 10%; /* El porcentaje no funciona igual en los textos, ya que mide respecto al font-size del contenedor */
 }
 
